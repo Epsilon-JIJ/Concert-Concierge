@@ -1,0 +1,15 @@
+.btn-red {
+  color: white;
+  border: 1px solid #e22424;
+  border-radius: 50px;
+  font-size: .8889rem;
+  padding: .75em 4em;
+  transition: .3s ease-in-out;
+}
+
+
+.btn-red:hover {
+  color: white;
+  border-color: #e22424;
+  background-color: #7c2929;
+}
