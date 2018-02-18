@@ -14,12 +14,12 @@ input {
 }
 
 .field {
-  max-width: 20em;
+  max-width: 25em;
 }
 
 .text-fields {
   margin: auto;
-  width: 50%;
+  width: 75%;
 }
 
 .no-focus:focus {
@@ -29,8 +29,13 @@ input {
 
 @media only screen and (min-width: 38em) {
 
-  .banner {
-    border-right: none;
+  .field {
+    max-width: 20em;
+  }
+
+  .text-fields {
+    margin: auto;
+    width: 50%;
   }
 
 }
@@ -38,9 +43,7 @@ input {
 
 @media only screen and (min-width: 60em) {
 
-  .banner {
-    border-right: 1px solid #E22424;
-  }
+
 
 }
 
