@@ -7,6 +7,24 @@
   text-align: center;
 }
 
+input {
+  border: 1px solid #e22424;
+  background-color: transparent;
+
+}
+
+.field {
+  max-width: 20em;
+}
+
+.text-fields {
+  margin: auto;
+  width: 50%;
+}
+
+.no-focus:focus {
+  outline: none;
+}
 
 
 @media only screen and (min-width: 38em) {
