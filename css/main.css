@@ -1,0 +1,68 @@
+html {
+  background-color: #1D1D1D;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.sign-up,
+.log-in {
+  color: #fff;
+  text-decoration: none;
+}
+
+.full-logo {
+  width: 200px;
+}
+
+.banner {
+  background-image: url(../images/banner-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  border-right: none;
+}
+
+.call-to-action,
+.platforms {
+  font-weight: normal;
+}
+
+.platforms {
+  font-weight: 200;
+  padding-top: 4.8em;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.play-music,
+.soundcloud,
+.spotify,
+.apple-music {
+  /* display: inline-block; */
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    border-right: none;
+  }
+
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    border-right: 1px solid #E22424;
+  }
+
+}
+
+
+@media only screen and (min-width: 90em) {
+
+
+
+}
