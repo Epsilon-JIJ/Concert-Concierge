@@ -23,18 +23,6 @@ html {
   border-right: none;
 }
 
-.call-to-action,
-.platforms {
-  font-weight: normal;
-}
-
-.platforms {
-  font-weight: 200;
-  padding-top: 4.8em;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-}
-
 .music-icon-each:focus {
   outline: none;
 }
@@ -54,11 +42,54 @@ html {
     border-right: 1px solid #E22424;
   }
 
+  .call-to-action {
+    font-size: 1.9rem;
+    line-height: 3rem;
+    font-weight: normal;
+  }
+
+  .platforms {
+    font-weight: 200;
+    padding-top: 6em;
+    font-size: .7901rem;
+    line-height: 1.5rem;
+  }
+
+
+}
+
+@media only screen and (min-width: 75em) {
+
+  .banner {
+    border-right: 1px solid #E22424;
+  }
+
+  .call-to-action {
+    font-size: 2.0273rem;
+    line-height: 3rem;
+  }
+
+  .platforms {
+    padding-top: 5.8em;
+    font-size: .8889rem;
+    line-height: 1.5rem;
+  }
+
+
 }
 
 
 @media only screen and (min-width: 90em) {
 
+  .call-to-action {
+    font-size: 2.5658rem;
+    line-height: 3.375rem;
+  }
 
+  .platforms {
+    padding-top: 4.8em;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
 
 }
