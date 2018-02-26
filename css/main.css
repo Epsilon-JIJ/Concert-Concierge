@@ -126,6 +126,17 @@ html {
     text-align: left;
   }
 
+  .sign-up,
+  .log-in {
+    transition: .2s ease-in-out;
+  }
+
+  .sign-up:hover,
+  .log-in:hover {
+    color: #e22424;
+    transition: .2s ease-in-out;
+  }
+
 }
 
 @media only screen and (min-width: 75em) {
