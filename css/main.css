@@ -68,6 +68,19 @@ html {
   width: 100%;
 }
 
+.platform-icons-link-up {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20em;
+  padding: 1.75em 0;
+}
+
+.platform-icons-link-up svg:hover{
+  color: #e22424;
+  transition: .2s ease-in-out;
+}
+
 .sync-info-small {
   width: 100%;
   padding-bottom: 2em;
