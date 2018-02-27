@@ -1,0 +1,48 @@
+.nav {
+  position: fixed;
+  background: linear-gradient(rgba(29,29,29,.9) 50%, transparent 110%);
+  /* background-color: #1d1d1d; */
+  width: 100%;
+  height: 200px;
+}
+
+.icon-logo {
+  max-width: 1.5em;
+}
+
+.nav-list {
+  padding-top: 1.9em;
+  text-align: right;
+}
+
+.nav-icon-single {
+  text-decoration: none;
+  color: #fff;
+  transition: .2s ease-in-out;
+}
+
+.nav-icon-single:hover {
+  color: #e22424;
+}
+
+.space-for-nav {
+  height: 3.4em;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
+}
