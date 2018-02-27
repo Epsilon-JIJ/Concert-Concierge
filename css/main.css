@@ -2,8 +2,8 @@ html {
   background-color: #1D1D1D;
   color: #fff;
   font-family: 'Raleway', sans-serif;
-  height: 100vh;
-  overflow: hidden;
+  /* height: 100vh;
+  overflow: hidden; */
 }
 
 label {
