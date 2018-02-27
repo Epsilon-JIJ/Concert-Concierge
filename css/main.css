@@ -6,6 +6,10 @@ html {
   overflow: hidden;
 }
 
+label {
+  font-weight: 200;
+}
+
 .sign-up,
 .log-in {
   color: #fff;
@@ -74,10 +78,11 @@ html {
   margin-left: auto;
   margin-right: auto;
   max-width: 20em;
+  width: 80%;
   padding: 1.75em 0;
 }
 
-.platform-icons-link-up svg:hover{
+.platform-icons-link-up svg:hover {
   color: #e22424;
   transition: .2s ease-in-out;
 }
@@ -90,6 +95,38 @@ html {
 
 .music-icon-each {
   color: #fff;
+}
+
+.link-up-icon-small {
+  width: 50%;
+}
+
+.play-music-small {
+  width: 45%;
+}
+
+.apple-music-small {
+  width: 40%;
+}
+
+.spotify-small {
+  width: 50%;
+}
+
+.finish-btn {
+  padding-top: 1em;
+}
+
+.add-another {
+  text-decoration: none;
+  color: #E22424;
+  font-size: .65rem;
+  line-height: 1.3rem;
+  transition: .2s ease-in-out;
+}
+
+.add-another:hover {
+  color: #E22424;
 }
 
 @media only screen and (min-width: 38em) {
@@ -163,6 +200,30 @@ html {
     color: #e22424;
     transition: .2s ease-in-out;
   }
+
+  .platform-icons-link-up {
+    width: 100%;
+  }
+
+  .soundcloud-small {
+    width: 55%;
+  }
+
+  .play-music-small {
+    width: 40%;
+  }
+
+  .apple-music-small {
+    width: 38%;
+  }
+
+  .add-another {
+    color: #7c2929;
+  }
+
+  /* .link-up-icon-small {
+    width: 100%;
+  } */
 
 }
 
