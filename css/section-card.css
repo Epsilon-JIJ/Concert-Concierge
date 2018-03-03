@@ -17,6 +17,7 @@
 
 .cs-head {
   padding-top: 1rem;
+  border-line:
 }
 
 .concerts {
@@ -26,4 +27,45 @@
 
 .cur {
   margin-bottom: 0;
+}
+
+/* EXTRAS */
+
+.ghost-scroll {
+  margin-top: 3rem;
+}
+
+.ghost-button {
+  background-color: rgba(0,0,0,0);
+  border: 3px solid #00BCD4;
+  color: #00BCD4 ;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.ghost-button:hover,
+.ghost-button:focus,
+.ghost-button:active {
+  border: 3px solid #00BCD4;
+  color: #fff;
+  background-color: #00BCD4;
+}
+
+.ghost-button-white {
+  background-color: rgba(0,0,0,0);
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1rem;
+  margin-bottom:4rem;
+}
+
+.ghost-button-white:hover,
+.ghost-button-white:focus,
+.ghost-button-white:active {
+  border: 3px solid #00BCD4;
+  color: #fff;
+  background-color: #00BCD4;
 }
