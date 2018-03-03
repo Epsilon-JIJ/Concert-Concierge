@@ -1,0 +1,29 @@
+/* INDEX ANCHOR */
+.anchor {
+  display: block;
+  height: 130px;
+  margin-top: -130px;
+  visibility: hidden;
+}
+
+.anchortwo {
+  display: block;
+  height: 150px;
+  margin-top: -150px;
+  visibility: hidden;
+}
+
+/* CONCERT */
+
+.cs-head {
+  padding-top: 1rem;
+}
+
+.showcase {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.cur {
+  margin-bottom: 0;
+}
