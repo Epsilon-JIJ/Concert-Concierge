@@ -31,11 +31,22 @@
 
 /* EXTRAS */
 
-.desc{
+.button {
+	background-color: #410098;
+  border-radius: 0.5em;
+	padding: .4em;
+	color: white;
+	position: relative;
+	width: 30%;
+	text-align: center;
+	left: 33%;
+}
+
+.price{
 	width: 100%;
 	text-align: center;
 }
-.desc div{
+.price div{
 	background-color: #410098;
 	padding: 1em 1em;
 	margin: 0.25em 0;
@@ -43,7 +54,9 @@
 	display: inline-block;
 	border-radius: 0.25em;
 }
-.desc a{
+.price a{
 	text-decoration: none;
 	color: white;
+}
+
 }
