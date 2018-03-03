@@ -1,5 +1,106 @@
 /* INDEX */
 
+.concertbannerTop {
+    text-decoration: none;
+    list-style: none;
+    height: 30em;
+    background-color: #e7e7e7;
+}
+
+.concertTextP {
+    font-size: 1.25em;
+    line-height: .25em;
+    opacity: 1;
+}
+
+.concert1 {
+    background-color: #252c37;
+    padding-top: 12em;
+}
+
+.eachTitle {
+    font-weight: 400;
+    letter-spacing: .25px;
+}
+
+
+
+.concert1Text {
+    color: #f0f0f0;
+}
+
+.concert1 p{
+    color: #f0f0f0;
+}
+
+
+
+.concert2 {
+    background-image: url(../images/banner-image.jpg);
+    background-size: 220%;
+    background-color: #dddddd;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 12em;
+}
+
+.concert2Text {
+    color: #0f1e37;
+}
+
+
+.concert3 {
+    background-color: #3b3738;
+    background-image: url(../images/banner-image.jpg);
+    background-size: 180%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding-top: 12em;
+}
+
+.concert4 {
+    background-color: #3173b4;
+    background-image: url(../images/banner-image.jpg),url(../artwork/ahw_pattern5.svg);
+    background-size: 45%;
+    background-position: left bottom,right bottom;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+}
+
+.concert4Text {
+    color: #f0f0f0;
+}
+
+.concert5 {
+    background-image: url(../images/banner-image.jpg);
+    background-size: 180%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-color: #d8d8d8;
+    padding-top: 10em;
+}
+
+
+.concert6 {
+    background-image: url(../images/banner-image.jpg);
+    background-size: 800%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-color: #1bbaa9;
+    padding-top: 10em;
+}
+
+
+
+.concertbannerTop p {
+   font-weight: 300;
+}
+
+.concertBucketTitle {
+    line-height: 115%;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
 
 /* Btns */
 
