@@ -31,19 +31,33 @@
 
 /* EXTRAS */
 
-.ghost-scroll {
-  margin-top: 3rem;
-}
-
 .ghost-button {
-  background-color: rgba(0,0,0,0);
-  border: 3px solid #00BCD4;
-  color: #00BCD4 ;
-  font-size: 1rem;
-  font-weight: 400;
-  padding: 1rem;
+  background-color: #410098;
+  border-radius: 0.5em;
+  padding: .4em;
+  color: white;
+  position: relative;
+  width: 30%;
+  text-align: center;
+  left: 33%;
 }
 
+.desc{
+	width: 100%;
+	text-align: center;
+}
+.desc div{
+	background-color: #410098;
+	padding: 1em 1em;
+	margin: 0.25em 0;
+	width: 100%;
+	display: inline-block;
+	border-radius: 0.25em;
+}
+.desc a{
+	text-decoration: none;
+	color: white;
+}
 .ghost-button:hover,
 .ghost-button:focus,
 .ghost-button:active {
