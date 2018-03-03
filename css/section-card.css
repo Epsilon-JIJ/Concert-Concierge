@@ -1,62 +1,40 @@
-/* INDEX ANCHOR */
-.anchor {
-  display: block;
-  height: 130px;
-  margin-top: -130px;
-  visibility: hidden;
+/* INDEX */
+
+
+/* Btns */
+
+.btnAdt{
+
+  cursor: pointer;
 }
 
-.anchortwo {
-  display: block;
-  height: 150px;
-  margin-top: -150px;
-  visibility: hidden;
+.btnAdt {
+  border: none;
+  transition: all 0.5s;
 }
 
-/* CONCERT */
 
-.cs-head {
-  padding-top: 1rem;
-  border-line:
+.btnAdt span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
 }
 
-.concerts {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.btnAdt span:after {
+  content: '►';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.4s;
 }
 
-.cur {
-  margin-bottom: 0;
+.btnAdt:hover span {
+  padding-right: 25px;
 }
 
-/* EXTRAS */
-
-.button {
-	background-color: #410098;
-  border-radius: 0.5em;
-	padding: .4em;
-	color: white;
-	position: relative;
-	width: 30%;
-	text-align: center;
-	left: 33%;
-}
-
-.price{
-	width: 100%;
-	text-align: center;
-}
-.price div{
-	background-color: #410098;
-	padding: 1em 1em;
-	margin: 0.25em 0;
-	width: 100%;
-	display: inline-block;
-	border-radius: 0.25em;
-}
-.price a{
-	text-decoration: none;
-	color: white;
-}
-
+.btnAdt:hover span:after {
+  opacity: 1;
+  right: 0;
 }
