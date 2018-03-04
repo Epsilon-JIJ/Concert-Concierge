@@ -1,0 +1,157 @@
+/* INDEX */
+/ * Concerts */
+
+
+.concertWrapperFull {
+    margin-top: .7em;
+    margin-bottom: 2em;
+}
+
+.concertWrapper {
+    margin-left: 1.13em;
+    margin-right: 1.13em;
+    margin-top: .7em;
+    margin-bottom: .7em;
+}
+
+.concertListItem1 {
+    font-weight: 300;
+    font-size: .8em;
+    opacity: .7;
+    padding-bottom: .05em;
+}
+
+
+
+.concertItem {
+    padding-top: 10em;
+    padding-bottom: 8em;
+}
+
+.concertText h6 {
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: .4em;
+    opacity: .4;
+}
+
+
+
+.concertText1 h6 {
+     padding-top: 2em;
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: .4em;
+    opacity: .4;
+}
+
+.concertItem1 {
+    background-image: url(../images/banner-image.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom, left;
+    background-color: #252c37;
+    color: #f1f1f1;
+}
+
+.concertItem1 h3 {
+    color: #f1f1f1;
+}
+
+.concertItem2 {
+    background-color: #dddddd;
+    background-image: url(../images/banner-image.jpg);
+    background-size: 220%;
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+}
+
+
+.concertItem3 {
+     background-image: url(../images/banner-image.jpg);
+     background-position: center top;
+    background-size: 157%;
+
+}
+
+.concertItem3 h3,
+.concertItem3 p {
+   color: #f1f1f1;
+}
+
+
+.concertItem4 {
+    background-color: #3173b4;
+    background-image: url(../images/banner-image.jpg);
+    background-size: 63%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.concertItem4 h3,
+.concertItem4 p {
+   color: #f1f1f1;
+}
+
+
+.concertItem5 {
+    background-color: #dddddd;
+    background-image: url(../images/banner-image.jpg);
+    background-position: center bottom;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.concertItem5 h3 {
+   color: ;
+}
+
+
+.concertItem6 {
+    background-color: #1bbaa9;
+    background-image: url(../images/banner-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 900%;
+    color: #f1f1f1;
+}
+
+.concertItem6 h3 {
+    color: #f1f1f1;
+}
+/* Btns */
+
+.btnAdt{
+
+  cursor: pointer;
+}
+
+.btnAdt {
+  border: none;
+  transition: all 0.5s;
+}
+
+
+.btnAdt span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+
+.btnAdt span:after {
+  content: '►';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.4s;
+}
+
+.btnAdt:hover span {
+  padding-right: 25px;
+}
+
+.btnAdt:hover span:after {
+  opacity: 1;
+  right: 0;
+}
