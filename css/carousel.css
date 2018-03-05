@@ -13,7 +13,7 @@
 #soundcloud-small:checked ~ .carousel-inner [for="soundcloud-small"]::after,
 #apple-music-small:checked ~ .carousel-inner [for="apple-music-small"]::after {
   content:" ";
-  border: 4px solid #e22424;
+  border: 1px solid #e22424;
   position: absolute;
   width: 100%;
   height: 100%;
