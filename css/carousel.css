@@ -6,14 +6,12 @@
   color: #e22424;
 }
 
-
 #play-music-small:checked ~ .carousel-inner #play-music-small,
 #spotify-logo-small:checked ~ .carousel-inner #spotify-small,
 #soundcloud-logo-small:checked ~ .carousel-inner #soundcloud-small,
 #apple-music-small:checked ~ .carousel-inner #apple-music-small {
   display: inline-block;
 }
-
 
 #google-play-small-control:checked ~ .carousel-inner [for="#play-music-small",]
 #spotify-logo-small-control:checked ~ .carousel-inner [for="#spotify-small",]
