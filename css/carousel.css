@@ -1,5 +1,5 @@
 .carousel-btn {
-  border-radius: 50%;
+  border-radius: 70%;
 }
 
 #play-music-small:checked ~ .carousel-inner #play-music-small,
