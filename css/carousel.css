@@ -8,5 +8,11 @@
 #apple-music-small-control:checked ~ .carousel-inner #play-music-small {
 
   display:block;
+  background-color: #fff;
 
+}
+
+.carousel-btn {
+  border: 4px solid #fff;
+  border-radius: 50%;
 }
