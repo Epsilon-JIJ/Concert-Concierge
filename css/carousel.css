@@ -1,7 +1,7 @@
-#google-play-small-control:checked ~ .carousel-inner #play-music-small,
-#spotify-logo-small-control:checked ~ .carousel-inner #spotify-logo-small,
-#soundcloud-logo-small-control:checked ~ .carousel-inner #soundcloud-logo-small,
-#apple-music-small-control:checked ~ .carousel-inner #apple-music-small {
+#google-play-small-control:checked ~ .carousel-inner [for="#play-music-small",]
+#spotify-logo-small-control:checked ~ .carousel-inner [for="#spotify-logo-small",]
+#soundcloud-logo-small-control:checked ~ .carousel-inner [for="#soundcloud-logo-small",]
+#apple-music-small-control:checked ~ .carousel-inner [for="#apple-music-small"] {
 
   display:block;
   background-color: #fff;
