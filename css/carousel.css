@@ -1,0 +1,12 @@
+.carousel-items > div {
+  display: none;
+}
+
+#google-play-small-control:checked ~ .carousel-inner #play-music-small,
+#spotify-logo-small-control:checked ~ .carousel-inner #play-music-small,
+#soundcloud-logo-small-control:checked ~ .carousel-inner #play-music-small,
+#apple-music-small-control:checked ~ .carousel-inner #play-music-small {
+
+  display:block;
+
+}
