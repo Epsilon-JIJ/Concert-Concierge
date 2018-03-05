@@ -14,7 +14,6 @@
 #soundcloud-logo-small-control:checked ~ .carousel-inner [for="#soundcloud-small",]
 #apple-music-small-control:checked ~ .carousel-inner [for="#apple-music-small"] {
 
-  background-color: #fff;
   border: 2px solid #e22424;
 
 }
