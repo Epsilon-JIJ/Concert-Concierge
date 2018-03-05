@@ -2,6 +2,11 @@
   border-radius: 90%;
 }
 
+.carousel-btn:hover {
+  color: #e22424;
+}
+
+
 #google-play-small:checked ~ .carousel-inner [for="google-play-small"],
 #spotify-small-control:checked ~ .carousel-inner [for="spotify-small"],
 #soundcloud-small-control:checked ~ .carousel-inner [for="soundcloud-small"],
