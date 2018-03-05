@@ -1,5 +1,5 @@
 .carousel-btn {
-  border-radius: 70%;
+  border-radius: 90%;
 }
 
 #google-play-small:checked ~ .carousel-inner [for="google-play-small"],
