@@ -17,3 +17,11 @@
   border: 2px solid #e22424;
 
 }
+
+
+@media only screen and (min-width: 38em) {
+
+  .carousel-items > div {
+    display: block;
+  }
+}
