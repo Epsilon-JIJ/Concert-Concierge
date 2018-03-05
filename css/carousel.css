@@ -1,5 +1,5 @@
 .carousel-btn {
-  border-radius: 150%;
+  border-radius: 250%;
   position: relative;
 }
 
@@ -21,7 +21,7 @@
   top:50%;
   transform: translate(-50% ,-50%) scale(1.2);
   z-index: 1000;
-  border-radius: 150%;
+  border-radius: 250%;
   color: #e22424;
 }
 
