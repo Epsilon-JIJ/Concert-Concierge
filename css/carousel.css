@@ -3,9 +3,9 @@
 }
 
 #google-play-small-control:checked ~ .carousel-inner #play-music-small,
-#spotify-logo-small-control:checked ~ .carousel-inner #play-music-small,
-#soundcloud-logo-small-control:checked ~ .carousel-inner #play-music-small,
-#apple-music-small-control:checked ~ .carousel-inner #play-music-small {
+#spotify-logo-small-control:checked ~ .carousel-inner #spotify-logo-small,
+#soundcloud-logo-small-control:checked ~ .carousel-inner #soundcloud-logo-small,
+#apple-music-small-control:checked ~ .carousel-inner #apple-music-small {
 
   display:block;
   background-color: #fff;
