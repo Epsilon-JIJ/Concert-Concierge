@@ -11,7 +11,7 @@
 #spotify-logo-small:checked ~ .carousel-inner #spotify-small,
 #soundcloud-logo-small:checked ~ .carousel-inner #soundcloud-small,
 #apple-music-small:checked ~ .carousel-inner #apple-music-small {
-  display: block;
+  display: inline-block;
 }
 
 
