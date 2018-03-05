@@ -1,9 +1,19 @@
-.nav {
+.nav-big {
   position: fixed;
-  background: linear-gradient(to bottom, rgba(29,29,29,1) 25%, rgba(29,29,29,0.75) 50%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(to bottom, rgba(29,29,29,1) 0%, rgba(29,29,29,.95) 25%, rgba(29,29,29,0.70) 50%, rgba(29,29,29,0.34) 75%, rgba(29,29,25,.05) 90%, transparent 100%);
   width: 100%;
   height: 6em;
   pointer-events: none;
+  display: none;
+}
+
+.nav-small {
+  position: fixed;
+  background: linear-gradient(to bottom, rgba(29,29,29,1) 0%, rgba(29,29,29,.95) 25%, rgba(29,29,29,0.70) 50%, rgba(29,29,29,0.34) 75%, rgba(29,29,25,.05) 90%, transparent 100%);
+  width: 100%;
+  height: 6em;
+  pointer-events: none;
+  display: visible;
 }
 
 .nav-icon-single {
@@ -12,16 +22,23 @@
 
 .cc-logo-small {
   pointer-events: all;
+  text-align: center;
 }
 
 .icon-logo {
-  max-width: 1.3em;
+  max-width: 1.6em;
 }
 
 .nav-list {
   padding-top: 1.6em;
   text-align: right;
 }
+
+.nav-list-small {
+  padding-top: 1em;
+  text-align: right;
+}
+
 
 .nav-icon-single {
   text-decoration: none;
@@ -41,14 +58,187 @@
   padding-right: 0;
 }
 
+.nav-btn-red {
+  width: 200px;
+  text-align: center;
+}
+
+.footer-border {
+  border-top: 1px solid #e22424;
+}
+
+
+
+
+.navigation {
+  z-index: 10000000;
+}
+
+.nav-btn {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  position: fixed;
+  right: 2.6rem;
+  z-index: 20000;
+  top: 1.7em;
+}
+
+.btn-red {
+  pointer-events: all;
+}
+
+.sidenav {
+  padding-top: 10vh;
+  height: 100vh;
+  width: 0;
+  right: -0.5px;
+  background: rgba(29,29,29,.9);
+  transition: 0.7s ease-in-out;
+  z-index: 1;
+  height: 100vh;
+  top: 0;
+}
+
+#nav-btn-red {
+  text-align: center;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+#nav-icon {
+  width: 35px;
+  height: 50px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  cursor: pointer;
+  pointer-events: all;
+  z-index: 1000000;
+}
+
+#nav-icon span {
+  display: block;
+  position: fixed;
+  height: 2px;
+  width: 100%;
+  background: #e22424;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+}
+
+#nav-icon span:nth-child(1) {
+  top: 0px;
+  z-index: 1;
+}
+
+#nav-icon span:nth-child(2) {
+  top: 10px;
+  z-index: 2;
+}
+
+#nav-icon span:nth-child(3) {
+  top: 10px;
+  z-index: 3;
+}
+
+#nav-icon span:nth-child(4) {
+  top: 20px;
+  z-index: 1;
+}
+
+#nav-icon.open span:nth-child(1) {
+  top: 10px;
+  width: 0%;
+  left: 50%;
+  z-index: 1;
+}
+
+#nav-icon.open span:nth-child(4) {
+  top: 16px;
+  width: 0%;
+  left: 50%;
+  background: #000;
+  z-index: 1;
+}
+
+#nav-icon.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #e22424;
+  z-index: 1000;
+}
+
+#nav-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background: #e22424;
+  z-index: 1000;
+}
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 38em) {
 
+  #nav-btn-red {
+    text-align: center;
+    margin-left: 8em;
+    margin-right: 8em;
+  }
+
+  .icon-logo {
+    max-width: 1.3em;
+  }
+
+  .nav-btn {
+    top: 1.5em;
+  }
 
 
 }
 
 @media only screen and (min-width: 60em) {
 
+  .nav-small {
+    position: fixed;
+    background: linear-gradient(to bottom, rgba(29,29,29,1) 0%, rgba(29,29,29,.95) 25%, rgba(29,29,29,0.70) 50%, rgba(29,29,29,0.34) 75%, rgba(29,29,25,.05) 90%, transparent 100%);
+    width: 100%;
+    height: 6em;
+    pointer-events: none;
+    display: none;
+  }
+
+  .nav-big {
+    position: fixed;
+    background: linear-gradient(to bottom, rgba(29,29,29,1) 0%, rgba(29,29,29,.95) 25%, rgba(29,29,29,0.70) 50%, rgba(29,29,29,0.34) 75%, rgba(29,29,25,.05) 90%, transparent 100%);
+    width: 100%;
+    height: 6em;
+    pointer-events: none;
+    display: block;
+  }
 
 
 }

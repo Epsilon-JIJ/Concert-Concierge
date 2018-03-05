@@ -2,8 +2,12 @@
   background-image: url(../images/banner-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 15em;
-  padding-bottom: 2.5em;
-  margin-bottom: 4em;
+  padding-top: 14em;
+  padding-bottom: 3em;
+  margin-bottom: 3em;
   border-bottom: 1px solid #e22424;
+}
+
+.banner-title {
+  padding-bottom: .5em;
 }
