@@ -8,9 +8,9 @@
 
 
 #google-play-small:checked ~ .carousel-inner [for="google-play-small"],
-#spotify-small-control:checked ~ .carousel-inner [for="spotify-small"],
-#soundcloud-small-control:checked ~ .carousel-inner [for="soundcloud-small"],
-#apple-music-small-control:checked ~ .carousel-inner [for="apple-music-small"] {
+#spotify-small:checked ~ .carousel-inner [for="spotify-small"],
+#soundcloud-small:checked ~ .carousel-inner [for="soundcloud-small"],
+#apple-music-small:checked ~ .carousel-inner [for="apple-music-small"] {
 
   border: 2px solid #e22424;
 
