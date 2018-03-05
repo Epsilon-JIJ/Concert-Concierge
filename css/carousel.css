@@ -1,6 +1,3 @@
-.carousel-items > div {
-  display: none;
-}
 
 #google-play-small-control:checked ~ .carousel-inner #play-music-small,
 #spotify-logo-small-control:checked ~ .carousel-inner #spotify-logo-small,
