@@ -5,6 +5,7 @@
   font-size: .8889rem;
   padding: .75em 4em;
   transition: .3s ease-in-out;
+  background-color: #1d1d1d;
 }
 
 .btn-red:hover {

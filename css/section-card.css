@@ -179,7 +179,7 @@ Btns
   color: #fff;
 }
 
-.card-gutter:hover .card-text {
+.card-hover-style:hover .card-text {
   background-color: rgba(124, 41, 41, .3);
 }
 
