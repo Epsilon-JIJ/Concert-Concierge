@@ -1,5 +1,6 @@
 .carousel-btn {
   border-radius: 150%;
+  position: relative;
 }
 
 .carousel-btn:hover {
@@ -7,13 +8,21 @@
 }
 
 
-#google-play-small:checked ~ .carousel-inner [for="google-play-small"],
-#spotify-small:checked ~ .carousel-inner [for="spotify-small"],
-#soundcloud-small:checked ~ .carousel-inner [for="soundcloud-small"],
-#apple-music-small:checked ~ .carousel-inner [for="apple-music-small"] {
-
+#google-play-small:checked ~ .carousel-inner [for="google-play-small"]::after,
+#spotify-small:checked ~ .carousel-inner [for="spotify-small"]::after,
+#soundcloud-small:checked ~ .carousel-inner [for="soundcloud-small"]::after,
+#apple-music-small:checked ~ .carousel-inner [for="apple-music-small"]::after {
+  content:" ";
   border: 2px solid #e22424;
-
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top:50%;
+  transform: translate(-50% ,-50%) scale(1.2);
+  z-index: 1000;
+  border-radius: 150%;
+  color: #e22424;
 }
 
 
