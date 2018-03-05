@@ -197,6 +197,34 @@ Btns
   border-bottom: 1px solid #e22424;
 }
 
+.concert-info-section {
+  padding: 0 50px 50px 50px;
+}
+
+.listen-title {
+  padding-left: 50px;
+}
+
+.listen-card {
+  border: 2px solid #e22424;
+  border-radius: 6px;
+}
+
+iframe {
+  display: block;
+}
+
+
+
+@media only screen and (min-width: 16em) {
+
+  .info-text {
+    padding-top: 20px;
+  }
+
+
+}
+
 @media only screen and (min-width: 38em) {
 
 
@@ -205,7 +233,10 @@ Btns
 
 @media only screen and (min-width: 60em) {
 
-
+  .info-text {
+    padding-top: 0;
+    padding-left: 35px;
+  }
 
 }
 
