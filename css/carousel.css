@@ -2,17 +2,10 @@
   border-radius: 70%;
 }
 
-#play-music-small:checked ~ .carousel-inner #play-music-small,
-#spotify-logo-small:checked ~ .carousel-inner #spotify-small,
-#soundcloud-logo-small:checked ~ .carousel-inner #soundcloud-small,
-#apple-music-small:checked ~ .carousel-inner #apple-music-small {
-  display: inline-block;
-}
-
-#google-play-small-control:checked ~ .carousel-inner [for="#play-music-small",]
-#spotify-logo-small-control:checked ~ .carousel-inner [for="#spotify-small",]
-#soundcloud-logo-small-control:checked ~ .carousel-inner [for="#soundcloud-small",]
-#apple-music-small-control:checked ~ .carousel-inner [for="#apple-music-small"] {
+#google-play-small:checked ~ .carousel-inner [for="google-play-small"],
+#spotify-logo-small-control:checked ~ .carousel-inner [for="spotify-small"],
+#soundcloud-logo-small-control:checked ~ .carousel-inner [for="soundcloud-small"],
+#apple-music-small-control:checked ~ .carousel-inner [for="apple-music-small"] {
 
   border: 2px solid #e22424;
 
