@@ -1,3 +1,12 @@
+.carousel-btn {
+  border-radius: 50%;
+}
+
+.carousel-btn:hover{
+  color: #e22424;
+}
+
+
 #play-music-small:checked ~ .carousel-inner #play-music-small,
 #spotify-logo-small:checked ~ .carousel-inner #spotify-logo-small,
 #soundcloud-logo-small:checked ~ .carousel-inner #soundcloud-logo-small,
@@ -13,12 +22,4 @@
 
   background-color: #fff;
 
-}
-
-.carousel-btn {
-  border-radius: 50%;
-}
-
-.carousel-btn:hover{
-  color: #e22424;
 }
