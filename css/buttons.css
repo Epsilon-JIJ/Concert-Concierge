@@ -7,9 +7,21 @@
   transition: .3s ease-in-out;
 }
 
-
 .btn-red:hover {
   color: white;
   border-color: #e22424;
+  background-color: #7c2929;
+}
+
+.btn-red-card {
+  width: 100%;
+  border: 1px solid #e22424;
+  background-color: transparent;
+  transition: .3s ease-in-out;
+  border-radius: 100px;
+}
+
+.btn-red-card:hover {
+  border: 1px solid #e22424;
   background-color: #7c2929;
 }

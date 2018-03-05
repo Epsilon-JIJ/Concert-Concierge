@@ -2,7 +2,7 @@
 / * Concerts */
 
 
-.concertWrapperFull {
+/* .concertWrapperFull {
     margin-top: .7em;
     margin-bottom: 2em;
 }
@@ -118,7 +118,7 @@
 .concertItem6 h3 {
     color: #f1f1f1;
 }
-/* Btns */
+Btns
 
 .btnAdt{
 
@@ -154,4 +154,63 @@
 .btnAdt:hover span:after {
   opacity: 1;
   right: 0;
+} */
+
+.card-gutter {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.card-btn-gutter-left {
+  padding-right: .5em;
+}
+
+.card-btn-gutter-right {
+  padding-left: .5em;
+}
+
+.card-btn {
+  width: 50%;
+}
+
+.card-main {
+  border: 1px solid #e22424;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.card-gutter:hover .card-text {
+  background-color: rgba(124, 41, 41, .3);
+}
+
+.card-text {
+  background-color: transparent;
+  transition: .3s ease-in-out;
+}
+
+.card-txt-style {
+  text-decoration: none;
+}
+
+.card-image {
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid #e22424;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
 }
