@@ -129,6 +129,10 @@ label {
   color: #E22424;
 }
 
+.info-text {
+  margin-top: 2em;
+}
+
 
 @media only screen and (min-width: 38em) {
 
@@ -142,6 +146,25 @@ label {
     margin-right: auto;
     max-width: 17em;
     width: 100%;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    border-left: 3px solid #541C1C;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #541C1C;
+    min-width:20px;
+    border-radius: 0px;
+    border-left: 3px solid #541C1C;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    max-width: 8px;
+    border-radius: 10px;
+    background: #1d1d1d;
+    border: 2px solid #541C1C;
   }
 
 }
@@ -220,6 +243,10 @@ label {
 
   .add-another {
     color: #7c2929;
+  }
+
+  .info-text {
+    margin-top: 0;
   }
 
   /* .link-up-icon-small {
