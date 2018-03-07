@@ -225,8 +225,11 @@
 }
 
 
+@media only screen and (min-width: 16em) {
 
-
+  .nav-btn {
+    right: 1.2rem;
+  }
 
 
 
@@ -245,6 +248,7 @@
 
   .nav-btn {
     top: 1.5em;
+    right: 2.6rem;
   }
 
 }
