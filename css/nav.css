@@ -40,6 +40,18 @@
 }
 
 
+
+.card-btn-onclick {
+  background-color: #7c2929;
+}
+
+.card-btn-noclick {
+  background-color: #1d1d1d;
+}
+
+
+
+
 .nav-icon-single {
   text-decoration: none;
   color: #fff;

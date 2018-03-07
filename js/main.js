@@ -19,3 +19,22 @@ $(document).ready(function(){
     }
 	});
 });
+
+function scheduled() {
+    document.getElementById("#schedule-btn").style.backgroundColor = "#7c2929";
+}
+
+function notScheduled() {
+    document.getElementById("#schedule-btn").style.backgroundColor = "transparent";
+}
+
+$(document).ready(function(){
+	$('#schedule').click(function(){
+		$(this).toggleClass('card-btn-noclick');
+    if($(this).hasClass('card-btn-onclick')){
+      notScheduled();
+    } else {
+      scheduled();
+    }
+	});
+});
