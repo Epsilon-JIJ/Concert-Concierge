@@ -13,6 +13,7 @@
   <link href="css/nav.css" rel="stylesheet">
   <link href="css/section-card.css" rel="stylesheet">
   <link href="css/banner.css" rel="stylesheet">
+  <link href="css/popup.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,700,800" rel="stylesheet">
 </head>
 <body>
@@ -115,7 +116,7 @@
             <a class="unit xs1-2 s-1-2 m-1-2 l-1-2 card-btn card-btn-gutter-left">
               <button class="btn-red-card micro" type="submit">SEE MORE</button>
             </a>
-            <a class="unit xs1-2 s-1-2 m-1-2 l-1-2 card-btn card-btn-gutter-right">
+            <a class="unit xs1-2 s-1-2 m-1-2 l-1-2 card-btn card-btn-gutter-right" href="#popup1">
               <button class="btn-red-card micro" type="submit">SCHEDULE</button>
             </a>
           </div>
@@ -331,6 +332,7 @@
               <img class="icon i-32" src="images/concert-concierge-logo-icon.svg" alt="CONCERT CONCIERGE">
             </a>
           </div>
+
         <div class="unit xs-2-3 s-2-3 m-2-3 l-2-3 text-left">
           <small class="copyright micro">© 2018 Concert Concierge</small>
         </div>
@@ -345,6 +347,14 @@
       </div>
     </div>
   </section>
+
+
+  <div id="popup1" class="overlay">
+    <div class="popup">
+      <a class="close" href="#">&times;</a>
+      <p class="pad-t-2 giga">Concert has been scheduled </p>
+    </div>
+  </div>
 
   <script src="js/jquery-3.2.0.min.js"></script>
   <script src="js/main.js"></script>
