@@ -228,10 +228,8 @@
 @media only screen and (min-width: 16em) {
 
   .nav-btn {
-    right: 1.2rem;
+    right: 1.3rem;
   }
-
-
 
 
 @media only screen and (min-width: 38em) {
@@ -248,7 +246,7 @@
 
   .nav-btn {
     top: 1.5em;
-    right: 2.6rem;
+    right: 2.8rem;
   }
 
 }
