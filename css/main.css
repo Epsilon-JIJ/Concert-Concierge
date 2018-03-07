@@ -54,6 +54,10 @@ label {
   display: none;
 }
 
+.platform-icons {
+  display: none;
+}
+
 .we-sync-small {
   display: block;
   font-weight: 400;
@@ -247,6 +251,10 @@ label {
 
   .info-text {
     margin-top: 0;
+  }
+
+  .platform-icons {
+    display: block;
   }
 
   /* .link-up-icon-small {
