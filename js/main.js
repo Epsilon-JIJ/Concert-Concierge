@@ -40,8 +40,27 @@ $(document).ready(function(){
     }
 	});
 });
+
 //
 // $('#schedule').click(function() {
 //   if ($('#schedule').html('SCHEDULE');
 //
 // }
+
+// var $btnUpNext = $(‘#schedule’);
+// var $btnCloseModal = $(‘.close’);
+// var $body = $(‘body’);
+// var $modal = $(‘#popup1’);
+//
+// $('#schedule').click(function () {
+//  var offset = $(document).scrollTop();
+//  var viewportHeight = $(window).height();
+//  $('.overlay').css(‘top’,  (offset  + (viewportHeight/2)) - ($('.overlay').outerHeight()/2));
+//  $('.overlay').show();
+//  $('body').css(‘overflow’,‘hidden’);
+// });
+//
+// $('.close').click(function () {
+//  $('.overlay').hide();
+//  $('body').css(‘overflow’,‘visible’);
+// })
