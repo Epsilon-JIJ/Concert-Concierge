@@ -20,21 +20,28 @@ $(document).ready(function(){
 	});
 });
 
-function scheduled() {
-    document.getElementById("#schedule-btn").style.backgroundColor = "#7c2929";
-}
-
-function notScheduled() {
-    document.getElementById("#schedule-btn").style.backgroundColor = "transparent";
-}
+// function scheduled() {
+//     document.getElementById("#schedule-btn").style.backgroundColor = "#7c2929";
+// }
+//
+// function notScheduled() {
+//     document.getElementById("#schedule-btn").style.backgroundColor = "transparent";
+// }
 
 $(document).ready(function(){
 	$('#schedule').click(function(){
 		$(this).toggleClass('card-btn-noclick');
-    if($(this).hasClass('card-btn-onclick')){
+    $('#schedule').html('UN-SCHEDULE');
+    if($(this).hasClass('card-btn-noclick')){
+      $('#schedule').html('SCHEDULE');
       notScheduled();
     } else {
       scheduled();
     }
 	});
 });
+//
+// $('#schedule').click(function() {
+//   if ($('#schedule').html('SCHEDULE');
+//
+// }
