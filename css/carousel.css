@@ -1,6 +1,5 @@
-.carousel-btn {
-  border-radius: 250%;
-  position: relative;
+.carousel-items > div{
+  display: none;
 }
 
 .carousel-btn:hover {
