@@ -20,20 +20,15 @@ $(document).ready(function(){
 	});
 });
 
-// function scheduled() {
-//     document.getElementById("#schedule-btn").style.backgroundColor = "#7c2929";
-// }
-//
-// function notScheduled() {
-//     document.getElementById("#schedule-btn").style.backgroundColor = "transparent";
-// }
+
+
 
 $(document).ready(function(){
-	$('#schedule').click(function(){
+	$('.schedule').click(function(){
 		$(this).toggleClass('card-btn-noclick');
-    $('#schedule').html('UN-SCHEDULE');
+    $('.schedule').html('UN-SCHEDULE');
     if($(this).hasClass('card-btn-noclick')){
-      $('#schedule').html('SCHEDULE');
+      $('.schedule').html('SCHEDULE');
       notScheduled();
     } else {
       scheduled();
@@ -41,26 +36,140 @@ $(document).ready(function(){
 	});
 });
 
-//
-// $('#schedule').click(function() {
-//   if ($('#schedule').html('SCHEDULE');
-//
-// }
+$(document).ready(function(){
+	$('.schedule2').click(function(){
+		$(this).toggleClass('card-btn-noclick');
+    $('.schedule2').html('UN-SCHEDULE');
+    if($(this).hasClass('card-btn-noclick')){
+      $('.schedule2').html('SCHEDULE');
+      notScheduled();
+    } else {
+      scheduled();
+    }
+	});
+});
 
-// var $btnUpNext = $(‘#schedule’);
-// var $btnCloseModal = $(‘.close’);
-// var $body = $(‘body’);
-// var $modal = $(‘#popup1’);
-//
-// $('#schedule').click(function () {
-//  var offset = $(document).scrollTop();
-//  var viewportHeight = $(window).height();
-//  $('.overlay').css(‘top’,  (offset  + (viewportHeight/2)) - ($('.overlay').outerHeight()/2));
-//  $('.overlay').show();
-//  $('body').css(‘overflow’,‘hidden’);
-// });
-//
-// $('.close').click(function () {
-//  $('.overlay').hide();
-//  $('body').css(‘overflow’,‘visible’);
-// })
+$(document).ready(function(){
+	$('.schedule3').click(function(){
+		$(this).toggleClass('card-btn-noclick');
+    $('.schedule3').html('UN-SCHEDULE');
+    if($(this).hasClass('card-btn-noclick')){
+      $('.schedule3').html('SCHEDULE');
+      notScheduled();
+    } else {
+      scheduled();
+    }
+	});
+});
+
+$(document).ready(function(){
+	$('.schedule4').click(function(){
+		$(this).toggleClass('card-btn-noclick');
+    $('.schedule4').html('UN-SCHEDULE');
+    if($(this).hasClass('card-btn-noclick')){
+      $('.schedule4').html('SCHEDULE');
+      notScheduled();
+    } else {
+      scheduled();
+    }
+	});
+});
+
+$(document).ready(function(){
+	$('.schedule5').click(function(){
+		$(this).toggleClass('card-btn-noclick');
+    $('.schedule5').html('UN-SCHEDULE');
+    if($(this).hasClass('card-btn-noclick')){
+      $('.schedule5').html('SCHEDULE');
+      notScheduled();
+    } else {
+      scheduled();
+    }
+	});
+});
+
+$(document).ready(function(){
+	$('.schedule6').click(function(){
+		$(this).toggleClass('card-btn-noclick');
+    $('.schedule6').html('UN-SCHEDULE');
+    if($(this).hasClass('card-btn-noclick')){
+      $('.schedule6').html('SCHEDULE');
+      notScheduled();
+    } else {
+      scheduled();
+    }
+	});
+});
+
+$(document).ready(function(){
+	$('.schedule7').click(function(){
+		$(this).toggleClass('card-btn-noclick');
+    $('.schedule7').html('UN-SCHEDULE');
+    if($(this).hasClass('card-btn-noclick')){
+      $('.schedule7').html('SCHEDULE');
+      notScheduled();
+    } else {
+      scheduled();
+    }
+	});
+});
+
+$(document).ready(function(){
+	$('.schedule8').click(function(){
+		$(this).toggleClass('card-btn-noclick');
+    $('.schedule8').html('UN-SCHEDULE');
+    if($(this).hasClass('card-btn-noclick')){
+      $('.schedule8').html('SCHEDULE');
+      notScheduled();
+    } else {
+      scheduled();
+    }
+	});
+});
+
+$(document).ready(function(){
+	$('.schedule9').click(function(){
+		$(this).toggleClass('card-btn-noclick');
+    $('.schedule9').html('UN-SCHEDULE');
+    if($(this).hasClass('card-btn-noclick')){
+      $('.schedule9').html('SCHEDULE');
+      notScheduled();
+    } else {
+      scheduled();
+    }
+	});
+});
+
+$(document).ready(function(){
+	$('.schedule9').click(function(){
+		$(this).toggleClass('card-btn-noclick');
+    $('.schedule9').html('UN-SCHEDULE');
+    if($(this).hasClass('card-btn-noclick')){
+      $('.schedule9').html('SCHEDULE');
+      notScheduled();
+    } else {
+      scheduled();
+    }
+	});
+});
+
+
+
+
+$(document).ready(function(){
+	$('.remove1').click(function(){
+  $('.card-section-1').toggleClass('planner-btn-onclick');
+});
+});
+
+$(document).ready(function(){
+	$('.remove2').click(function(){
+  $('.card-section-2').toggleClass('planner-btn-onclick');
+});
+});
+
+$(document).ready(function(){
+	$('.remove3').click(function(){
+  $('.card-section-3').toggleClass('planner-btn-onclick');
+});
+});

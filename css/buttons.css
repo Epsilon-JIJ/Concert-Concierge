@@ -26,3 +26,35 @@
   border: 1px solid #e22424;
   background-color: #7c2929;
 }
+
+
+.card-btn-onclick {
+  background-color: #7c2929;
+}
+
+.card-btn-noclick {
+  background-color: #1d1d1d;
+}
+
+.btn-red-card:focus {
+  outline: none;
+  background-color: #7c2929;
+  border: 1px solid #e22424;
+}
+
+.btn-red:focus {
+  outline: none;
+  background-color: #7c2929;
+  border: 1px solid #e22424;
+}
+
+.card-btn-onclick:focus {
+  outline: none;
+  background-color: #7c2929;
+  border: 1px solid #e22424;
+}
+.card-btn-noclick:focus {
+  outline: none;
+  background-color: #1d1d1d;
+  border: 1px solid #e22424;
+}
