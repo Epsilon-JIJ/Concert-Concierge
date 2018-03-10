@@ -14,11 +14,13 @@
   color: #fff;
 }
 
-.calender-card {
-
+.planner-btn-noclick {
+  display: block;
 }
 
-
+.planner-btn-onclick {
+  display: none;
+}
 
 @media only screen and (min-width: 16em) {
 

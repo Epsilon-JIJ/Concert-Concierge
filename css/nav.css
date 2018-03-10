@@ -41,14 +41,6 @@
 
 
 
-.card-btn-onclick {
-  background-color: #7c2929;
-}
-
-.card-btn-noclick {
-  background-color: #1d1d1d;
-}
-
 
 
 
@@ -142,10 +134,15 @@
   text-align: center;
 }
 
+.small-nav-btn {
+  pointer-events: all;
+}
+
 #nav-btn-red {
+  pointer-events: all;
   text-align: center;
-  margin-left: 25vw;
-  margin-right: 25vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 #nav-icon {
