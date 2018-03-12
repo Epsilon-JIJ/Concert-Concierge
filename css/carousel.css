@@ -24,10 +24,30 @@
   color: #e22424;
 }
 
+.google-play-icon {
+  transform: translateY(1.5px) translateX(5px);
+}
+
+.spotify-icon {
+  transform: translateY(2px);
+}
+
+.email-padding {
+  padding-top: 1em;
+}
 
 @media only screen and (min-width: 16em) {
 
   .carousel-items > div {
     display: block;
   }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .google-play-icon {
+    transform: translateY(2.5px) translateX(5px);
+  }
+
+
 }
